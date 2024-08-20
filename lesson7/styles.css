@@ -1,0 +1,35 @@
+/* global css */
+*{font-size: 30px;
+    font-weight: 700;
+}
+/* External CSS */
+h3{
+    color:blueviolet;
+    background-color: aquamarine;
+    width:fit-content
+}
+
+/* element selector */
+h4{
+    color:brown;
+    background-color: chartreuse;
+    width: fit-content;
+}
+/* class selector */
+h5.myclass{
+    color: darkblue;
+    background-color: coral;
+    width: fit-content;
+}
+/* id selector */
+h5#myid {
+    color: bisque;
+    background-color: darkmagenta;
+    width: fit-content;
+}
+/* group selector */
+h6{
+    color: darkred;
+    background-color: lightpink;
+    width: fit-content;
+}
