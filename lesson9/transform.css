@@ -4,6 +4,6 @@
     color: coral;
     background-color: crimson;
     width:fit-content;
-    transform: 180deg;
-    
+    transform: rotateY(180deg);
+
 }
