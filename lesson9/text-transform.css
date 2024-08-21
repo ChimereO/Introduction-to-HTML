@@ -1,0 +1,42 @@
+h1{
+    width: fit-content;
+    height: 100px;
+    color: lawngreen;
+    background-color: darkred;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-decoration-color: midnightblue;
+    text-decoration-thickness: 10px;
+}
+h2{
+    text-decoration: line-through;
+    text-transform: capitalize;
+    width: fit-content;
+    color: darkorange;
+    background-color: darkolivegreen;
+    text-decoration-thickness: 5px;
+    text-decoration-color: black;
+    height: 100px;
+    font-size: 50px;
+    
+}
+h3{
+    text-decoration: underline;
+    text-transform: lowercase;
+    width: fit-content;
+    color: darkgray;
+    background-color: darkred;
+    font-size: 50px;
+    text-decoration-color: blue;
+    text-decoration-thickness: 10px;
+}
+h4{
+    text-decoration: overline underline;
+    text-transform: lowercase;
+    width: fit-content;
+    background-color: blue;
+    color: maroon;
+    font-size: 50px;
+    text-decoration-color: firebrick;
+    text-decoration-thickness: 10px;
+}
