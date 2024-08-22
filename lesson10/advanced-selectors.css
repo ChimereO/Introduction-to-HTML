@@ -1,0 +1,26 @@
+ul li:nth-child(3){
+    background-color: darkblue;
+}
+body{
+    background-color: black;
+    color:rgb(246, 247, 250)
+}
+p:not (:first-of-type){
+    text-decoration:underline;
+}
+ul li::before{
+    content: "🚀";
+}
+a::after{
+    content:"🌌"
+}
+p::first-letter{
+    font-size: 200%;
+    color: tomato;
+}
+ul li:hover{
+    color:maroon
+}
+p{
+    color: aqua;
+}
