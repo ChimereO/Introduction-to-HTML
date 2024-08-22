@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cascading effect</title>
+    <style>
+        #p1{
+            background:linear-gradient(to top right,red,orange,yellow,blue,green,indigo,violet,maroon,black);
+            height:50px;
+            color: darkred;
+        }
+         @keyframes draw{
+            0%{background-color: red; }
+     25%{background-color: yellow; color: red; font-size: 32px;}
+     50%{background-color: green;}
+     75%{background-color: blue; color: white; font-size: 25px;}
+     100%{background-color: purple;}
+   }
+        p#div{
+            width: 440px;
+            height: 300px;
+            background-color:maroon ;
+            border: 7px dotted black;
+            animation-name: draw;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;    
+        }
+
+    </style>
+</head>
+<body>
+    <h2 id="p1">WELCOME TO CODINGAL</h2>
+    <h2 style="color:blue;background-color:maroon;width:fit-content"
+    >CODINGAL TEACHES IT,S STUDENT THESE</h2>
+    <p id="div"><b><strong>WELCOME TO MY WORLD OF ANIMATION</strong></b></p>
+</body>
+</html>
