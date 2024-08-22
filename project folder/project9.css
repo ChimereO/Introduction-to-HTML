@@ -1,0 +1,39 @@
+#p1{
+    padding: 10px;
+    background-color: darkred;
+    color: darkblue;
+    width: 200px;
+    text-decoration: overline;
+    text-decoration-color: gold;
+    text-decoration-thickness: 5px;
+    box-shadow: 9px 7px 2px;
+    text-transform: capitalize;
+}
+#p2{
+    color: darkred;
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+    text-indent: 20%;
+    text-shadow: 15px 10px 4px;
+}
+#p3{
+    color: saddlebrown;
+    font-family: fantasy;
+    text-align: center;
+    text-indent: 20%;
+    text-shadow: 15px 10px 4px;
+}
+#p4{
+    background-color: crimson;
+    width: 412px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    height: 60px;
+    padding: 12px;
+    text-decoration-color: darkblue;
+    transform: rotateY(180deg);
+    box-shadow: 9px 7px 3px;
+    color: maroon;
+    text-transform: uppercase;
+}
