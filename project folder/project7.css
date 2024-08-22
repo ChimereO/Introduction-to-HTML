@@ -1,0 +1,9 @@
+.p1{
+    text-decoration: overline;
+    text-decoration-color: darkblue;
+    text-decoration-thickness: 5px;
+    text-transform: capitalize;
+    background-color: crimson;
+    width: fit-content;
+    height: 50px;
+}
