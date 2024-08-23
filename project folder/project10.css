@@ -1,0 +1,30 @@
+#p1{
+    color:darkred;
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+    color:lightblue;
+}
+ul li:hover{
+    color:darkred;
+}
+p::first-letter{
+    font-size: 200%;
+    color: darkred;
+}
+ul li:nth-child(3){
+    background-color:mediumblue;
+}
+ul li:nth-child(5){
+    background-color: darkblue;
+}
+p{
+    color: aqua;
+}
+ul li::before{
+    content: "🤖";
+}
+h2{
+    color: aqua;
+}
