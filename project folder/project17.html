@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <style>
+        body{
+            background-color: rgb(2, 2, 27);
+        }
+        #a1{
+            border:5px solid green;text-decoration:underline;
+            width: 1000px;
+            text-align: center;
+            margin: 5px;
+        }
+        #a2{
+            position: absolute;
+            left: 5px;
+            top:100px
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+        <div class="navbar bg-dark" style="margin: 20px;">
+            <div id="a1" class="display-4 bg-warning">FIRST PAGE</div><hr>
+            <ul id="a2" class="pagination">
+                <li class="page-item"><a class="page-link bg-secondary text-dark" href="#">previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link bg-success text-dark" href="#">next</a></li>
+            </ul>
+            <button type="button" class="btn btn-primary" style="border: 2px solid;">HOME</button>
+            <button type="button" class="btn btn-primary" style="border: 2px solid;">ABOUT US</button>
+            <button type="button" class="btn btn-primary" style="border: 2px solid;">MORE <span class="badge badge-secondary">2 pages</span></button>\
+            <button type="button" class="btn btn-danger" style="border: 2px solid;">login</button>
+        </div>
+        </div>
+        <div class="card" style="width: 20rem;margin:15px">
+            <img src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg" alt="">
+            <div class="card-body bg-danger">
+                <h5 class="card-title">ONUOHA ELIAS CHIMERE</h5>
+                <h5 class="card-subtitle">STUDENT</h5><br>
+                <h6 class="card-text text-center"> This profile belongs to a student of st clement secondary school.</h6>
+                <a href="#" class="btn btn-primary">view profile</a>
+                <a href="#" class="btn btn-dark">login</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
